@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /sbin/setuser www-data php /var/www/phpci/console phpci:worker
