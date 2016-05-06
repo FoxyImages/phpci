@@ -11,7 +11,6 @@ ssh-keyscan -t rsa github.com >> /var/www/.ssh/known_hosts
 
 cd /var/www
 chown www-data:root .
-curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 composer create-project block8/phpci phpci --no-dev
 
 cd /var/www/phpci
