@@ -1,4 +1,4 @@
-FROM sunfoxcz/nginx-php7:0.1.0
+FROM sunfoxcz/nginx-php7:latest
 MAINTAINER Tomas Jacik <tomas@jacik.cz>
 
 ADD . /build
