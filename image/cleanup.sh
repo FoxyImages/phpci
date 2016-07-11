@@ -10,4 +10,3 @@ rm -rf /var/lib/apt/lists/*
 rm -rf /tmp/* /var/tmp/*
 rm -rf /usr/share/man/??
 rm -rf /usr/share/man/??_*
-rm -f /etc/dpkg/dpkg.cfg.d/docker-apt-speedup
