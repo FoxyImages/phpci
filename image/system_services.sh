@@ -3,7 +3,7 @@ set -e
 source /build/buildconfig
 set -x
 
-$minimal_apt_get_install beanstalkd git
+$minimal_apt_get_install beanstalkd git mysql-client
 
 mkdir /var/www/.ssh
 ssh-keyscan -t rsa bitbucket.org >> /var/www/.ssh/known_hosts
