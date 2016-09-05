@@ -3,7 +3,8 @@ set -e
 source /build/buildconfig
 set -x
 
-$minimal_apt_get_install beanstalkd git mysql-client
+$minimal_apt_get_install beanstalkd git mysql-client nodejs nodejs-legacy npm
+npm install -g grunt
 
 mkdir /var/www/.ssh
 ssh-keyscan -t rsa bitbucket.org >> /var/www/.ssh/known_hosts

@@ -1,5 +1,5 @@
 NAME = sunfoxcz/phpci
-VERSION = 0.1.3
+VERSION = 0.1.4
 
 .PHONY: all build tag_latest release
 
